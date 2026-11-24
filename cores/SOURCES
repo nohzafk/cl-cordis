@@ -1,0 +1,39 @@
+bend 2.0.40
+emitter bend-emit-cl ffd4082, Bend source 624dd9f
+runtime.lisp: package cl-cordis.runtime
+base.lisp: package cl-cordis.base
+keys.lisp: package cl-cordis.core.keys, from bend/keys
+  ALL PROOFS CHECK; defs in LAWS.bend: 0
+  b999f33d4a7693581f764aea2c012f68 core.bend
+  a7538203ee0986ed0ec34051652fbdc9 FACTS.bend
+  7486d050962359e98edb2ce0eda7a1a6 LAWS.bend
+  2c53f06c85c99a8a04ccfdbf1061ac8e PROOF.bend
+comp.lisp: package cl-cordis.core.comp, from bend/comp
+  no PROOF.bend: its laws are in the cores that import it
+  d6f3e8c466f01960afe0c095a39d67bc core.bend
+  174fb956fed7c83caac241820036d3bb FACTS.bend
+cascade.lisp: package cl-cordis.core.cascade, from bend/cascade
+  ALL PROOFS CHECK; defs in LAWS.bend: 7
+  4552ef0afc93bfda4537e3d0028866d7 core.bend
+  38ab8dad38da8612dab0fa2578532d21 LAWS.bend
+  5b743262ad1bbee1278426ec3529a8fd PROOF.bend
+check.lisp: package cl-cordis.core.check, from bend/check
+  ALL PROOFS CHECK; defs in LAWS.bend: 1
+  ef57db261597064580538da2a253073f core.bend
+  f5462b5ad966c46ddc1e9c582a589884 LAWS.bend
+  f8a7299c3c434b516715f62dd386ea32 PROOF.bend
+hooks.lisp: package cl-cordis.core.hooks, from bend/hooks
+  ALL PROOFS CHECK; defs in LAWS.bend: 17
+  10e1d9d7d78d25b7b897aff76712c7cc core.bend
+  220e2f7bd1aaff9e807be23720c6c9ef LAWS.bend
+  c51636a2c97229bdf8ec59b77aada5c6 PROOF.bend
+plan.lisp: package cl-cordis.core.plan, from bend/plan
+  ALL PROOFS CHECK; defs in LAWS.bend: 1
+  10ab034cb403bfa0476f43c6b49612ea core.bend
+  d18bed5698e79e5f3d2b7e17ecde3bec LAWS.bend
+  088290535bf68d7b9ad6649f75bd1386 PROOF.bend
+undo.lisp: package cl-cordis.core.undo, from bend/undo
+  ALL PROOFS CHECK; defs in LAWS.bend: 1
+  fb9498dc88484e65a5a10de2a98d8736 core.bend
+  c91bf231d6d58175e1c469eb69a0917a LAWS.bend
+  f64360e2bfcfd3f2fbfce09a9e336561 PROOF.bend
