@@ -73,7 +73,7 @@ done
 cat > "$T/IMAGE.json" <<EOF
 {
   "runtime": "cl-cordis.runtime",
-  "base": { "package": "cl-cordis.base", "file": "base.lisp" },
+  "base": { "package": "cl-cordis.base", "file": "base.lisp", "prune": true },
   "modules": [
     { "id": "keys",    "package": "cl-cordis.core.keys",    "source": "$BEND_DIR/keys/core.bend" },
     { "id": "comp",    "package": "cl-cordis.core.comp",    "source": "$BEND_DIR/comp/core.bend" },

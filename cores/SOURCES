@@ -1,5 +1,5 @@
 bend 2.0.40
-emitter bend-emit-cl ffd4082, Bend source 624dd9f
+emitter bend-emit-cl 5aaba1f, Bend source 624dd9f
 runtime.lisp: package cl-cordis.runtime
 base.lisp: package cl-cordis.base
 keys.lisp: package cl-cordis.core.keys, from bend/keys
